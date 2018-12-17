@@ -30,7 +30,7 @@ bot.on('message', msg => {
         msg.reply("Heureux de te revoir parmis nous.")
     }
     if (msg.content.match(/salut/i)) {
-            msg.reply('Je suis d\'accord avec toi.')
+            msg.reply('Wesh bien ou quoi.')
     }
     if (msg.content === prefix + "site"){
         msg.channel.send("https://alexpgm.000webhostapp.com/")
